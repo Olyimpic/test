@@ -1,0 +1,66 @@
+/* Applies to the entire body of each page, setting the font and background properties */
+body {
+    padding-bottom: 100px; /* Adjust based on your footer's height */
+    font-family: Arial, sans-serif; /* This sets the type of font for the text */
+    color: black; /* This sets the text color */
+    text-align: center; /* This centers the text on the page */
+    background-size: cover; /* This makes the background image cover the entire page */
+    background-repeat: no-repeat; /* This stops the background image from repeating */
+}
+
+/* Specific styles for each page, changing the background image */
+.index {
+    background-image: url('Background/FirstNight.jpg'); /* Background for the home page */
+}
+
+.page2 {
+    background-image: url('Background/SecondNight.jpg'); /* Background for the second page */
+}
+
+.page3 {
+    background-image: url('Background/ThirdNight.jpg'); /* Background for the third page */
+}
+
+/* Style for the navigation bar */
+header nav {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjusted for semi-transparent white background */
+    padding: 1em 0; /* Adds space inside the navigation bar */
+}
+
+/* Style for links in the navigation bar */
+nav a {
+    margin: 0 20px; /* Adds space around each link */
+    color: #333; /* Sets the color of the links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+/* Styles for the images of characters */
+.character-images img {
+    width: 250px; /* Sets the width of the images */
+    margin: 0 25px; /* Adds space between the images */
+    vertical-align: middle; /* Aligns images vertically */
+}
+
+/* Style for the main content section */
+main section {
+    padding: 20px; /* Adds space inside the section */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjusted for semi-transparent white background for readability */
+    margin: 20px auto; /* Centers the section and adds space around it */
+    width: 80%; /* Sets the width of the section */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #222; /* Dark background for the footer */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 0; /* Adds space inside the footer */
+    position: fixed; /* Keeps the footer at the bottom of the page */
+    bottom: 0;
+    width: 100%; /* Full width */
+    text-align: center; /* Centers the text in the footer */
+}
